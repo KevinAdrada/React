@@ -5,7 +5,6 @@ header{
     background-color: rgb(81, 81, 81);
     border-radius: 20px;
     padding: 10px 0;
-    position: fixed;
 }
 
 h1{
@@ -42,7 +41,8 @@ article{
   justify-content: center;
   align-items: center;
   color: white;
-  margin-bottom: 25px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 section{
@@ -53,7 +53,9 @@ section{
 
 footer{
   background-color: rgb(81, 81, 81);
+  border-radius: 10px;
   color: white;
   text-align: center;
   height: 50px;
+  padding: 5px;
 }
