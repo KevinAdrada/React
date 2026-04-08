@@ -1,11 +1,11 @@
 
 header{
     color: white;
-    max-width: 100%;
+    width: 99%;
     background-color: rgb(81, 81, 81);
-    border-radius: 10px;
-    margin: 0 auto;
+    border-radius: 20px;
     padding: 10px 0;
+    position: fixed;
 }
 
 h1{
@@ -34,3 +34,26 @@ li a{
   color: chartreuse;
 }
 
+article{
+  background: radial-gradient( rgb(1, 133, 19), rgb(104, 248, 104));
+  border-radius: 16px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-bottom: 25px;
+}
+
+section{
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+
+footer{
+  background-color: rgb(81, 81, 81);
+  color: white;
+  text-align: center;
+  height: 50px;
+}
